@@ -12,14 +12,14 @@ while True:
             print('O jogador jogou {} e o computador jogou {}: {} é PAR - JOGADOR GANHOU'.format(jogador, computador, resultado))
             v += 1
         else:
-            print('VOCÊ PERDEU, GAME OVER')
+            print('VOCÊ PERDEU, O compurador jogou {}. GAME OVER'.format(computador))
             break
     elif tipo == 'I':
         if resultado % 2 == 1:
-            print('O Jogador jogou {} e o computador jogou {}: {} é IMPAR - JOGADOR GANHOU'.format(computador, jogador, resultado))
+            print('O Jogador jogou {} e o computador jogou {}: {} é IMPAR - JOGADOR GANHOU'.format(jogador, computador, resultado))
             v += 1
         else:
-            print('VOCÊ PERDEU, GAME OVER')
+            print('VOCÊ PERDEU, O computador jogou {}. GAME OVER'.format(computador))
             break
     print('Vamos jogar novamente... ')
 print('Voce venceu {} vezes'.format(v))
