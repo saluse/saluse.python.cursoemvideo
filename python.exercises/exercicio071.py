@@ -21,3 +21,6 @@ while True:
         totced = 0
         if total == 0:
             break
+print('=' * 50)
+print('{:^50}'.format('VOLTE SEMPRE AO BANCO WS'))
+print('=' * 50)
