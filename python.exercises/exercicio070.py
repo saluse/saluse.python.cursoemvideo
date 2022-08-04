@@ -26,4 +26,4 @@ while True:
 print('O totas das suas compras é R$ {:.2f}'.format(soma))
 print('Na lista existem {} produtos que custam mais de R$1.000,00'.format(totmil))
 print('O produto de menor preço custa: R${}'.format(menor))
-print('{:=^40}'.format(' FIM '))
+print('{:=^40}'.format(' FIM DAS COMPRAS '))
