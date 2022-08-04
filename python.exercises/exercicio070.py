@@ -3,6 +3,7 @@ totmil = 0
 soma = 0
 cont = 0
 menor = 0
+barato = ''
 print('{:=^40}'.format(' Lojas Barateira '))
 while True:
     nome = str(input('Nome do produto: '))
@@ -13,9 +14,11 @@ while True:
         totmil = totmil + 1
     if cont == 1:
         menor = preco
+        barato = nome
     else:
         if preco < menor:
             menor = preco
+            barato = nome
     resp = ' '
     while resp not in 'SN':
         resp = str(input('Quer continuar [S/N]? ')).upper().strip()[0]
@@ -25,5 +28,5 @@ while True:
         break
 print('O totas das suas compras é R$ {:.2f}'.format(soma))
 print('Na lista existem {} produtos que custam mais de R$1.000,00'.format(totmil))
-print('O produto de menor preço custa: R${}'.format(menor))
+print('O produto de menor preço é o {} e custa: R${}'.format(barato, menor))
 print('{:=^40}'.format(' FIM DAS COMPRAS '))
