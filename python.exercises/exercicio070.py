@@ -27,6 +27,7 @@ while True:
             print('Digite mais produtos: ')
     if resp == 'N':
         break
+print('=' * 50)
 print('O totas das suas compras é R$ {:.2f}'.format(soma))
 print('Na lista existem {} produtos que custam mais de R$1.000,00'.format(totmil))
 print('O produto de menor preço é o {} e custa: R${}'.format(barato, menor))
