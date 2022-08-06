@@ -5,6 +5,7 @@ cont = 0
 menor = 0
 barato = ''
 print('{:=^40}'.format(' Lojas Barateira '))
+print('CAIXA')
 while True:
     nome = str(input('Nome do produto: '))
     preco = float(input('Preço: R$'))
