@@ -6,3 +6,4 @@ Consumopontad = diesel * ktp
 consumopontae = ktp * kwp
 print('O valor do consumo em reais com o gerador operando na ponta é de R${}'.format(Consumopontad))
 print('O valor do consumo em reais sem o gerador operando na ponta é de R${}'.format(consumopontae))
+print('FIM')
