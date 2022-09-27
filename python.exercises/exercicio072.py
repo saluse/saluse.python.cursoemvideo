@@ -1,4 +1,4 @@
-num = int(input('Digite um número entre 0 e 10: '))
+num = int(input('Digite um número entre 0 e 20: '))
 numero = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez')
 if num < 0 or num > 10:
     print('Número inválido, digite outro número entre 0 e 10: ')
@@ -10,7 +10,7 @@ else:
 #Solução do Professor:
 cont = ('Zero', 'Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez')
 while True:
-    num = int(input('Digite um número de 0 a 10: '))
+    num = int(input('Digite um número de 0 a 20: '))
     if 0 <= num <= 10:
         break
     print('Tente NOvamente: ', end='')
