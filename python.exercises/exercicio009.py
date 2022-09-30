@@ -1,3 +1,4 @@
+print('TABUADA')
 n = int(input('Digite um número para ver a sua tabuada: '))
 n1 = n
 n2 = n * 2
