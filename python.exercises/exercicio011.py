@@ -1,3 +1,4 @@
+print('CALCULO PARA PINTURA')
 l = float(input('Largura da parede: '))
 a = float(input('Altura da parede: '))
 w = l * a
