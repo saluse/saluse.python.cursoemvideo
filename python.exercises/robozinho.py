@@ -10,5 +10,5 @@ pyautogui.press('enter')
 pyautogui.write('Teste aprovado')
 pyautogui.press(['enter','enter'])
 pyautogui.write(2 * 'Mais um!!!!')
-
+pyautogui.write('FIM')
 
