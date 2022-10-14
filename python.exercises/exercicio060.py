@@ -1,3 +1,4 @@
+print('VAMOS DESCOBRIR O FATORIAL?')
 n = int(input('Digite um número qualquer: '))
 n1 = 1
 for n in range(n, 0, -1):
