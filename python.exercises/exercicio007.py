@@ -1,3 +1,4 @@
+print('Média Semestral do Aluno')
 p = float(input('Primeira nota do aluno: '))
 s = float(input('Segunda nota do aluno: '))
 m = (p + s)/2
