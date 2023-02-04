@@ -4,14 +4,3 @@ raiz = sqrt(num)
 print('A raiz de {} é igual a {:.3f}'.format(num, raiz))
 
 
-
-
-
-
-
-
-
-
-
-
-
