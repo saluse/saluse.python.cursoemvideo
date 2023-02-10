@@ -12,5 +12,3 @@ print('A soma entre {} e {} vale: {}'.format(n3, n4, s1))
 
 
 
-
-
