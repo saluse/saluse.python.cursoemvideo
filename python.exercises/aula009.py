@@ -3,6 +3,3 @@ Nothing changes your way
 This world insists to be the same
 Based on our mistakes'''
 print('-'.join(frase))
-
-
-
