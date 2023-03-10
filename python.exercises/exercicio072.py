@@ -44,3 +44,4 @@ numero = int(input('Digite um numero de 0 a 20: '))
 while numero not in range(0,21):
 	numero = int(input('Tente novamente.Digite um numero de 0 a 20: '))
 print(f'Você digitou o numero {extensos[numero]}!')
+
