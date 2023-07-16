@@ -5,7 +5,7 @@ print('Vamos exercitar a matemática?')
 sleep(1)
 n = int(input('Digite um número: '))
 print('Qual o dobro, o triplo e a raiz quadrada do número informado')
-sleep(3)
+sleep(2)
 print('Não se preocupe, vou te ajudar')
 sleep(2)
 d = n * 2
@@ -27,6 +27,11 @@ if pergunta == "sim":
         pergunta = input('Quer continuar? ')
         if pergunta == "não":
             break
+    sleep(2)
+    print('Ok')
+    sleep(2)
+    print('Vou encerrar por aqui, até mais')
     print('Fim')
 else:
     print('Fim')
+
