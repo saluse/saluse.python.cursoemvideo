@@ -8,3 +8,4 @@ if a < b + c and b < a + c and c < a + b:
     print('Sim, o triângulo pode ser formado')
 else:
     print('Não, com esses valores não é possível formar um triângulo')
+
