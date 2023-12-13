@@ -1,0 +1,6 @@
+# Instalar as bibliotecas somente na primeira execução
+# pip install google-cloud-storage
+# pip install google-cloud-bigquery
+# pip install pandas as pd
+# pip install pandas-gbq
+# pip install db-dtypes
