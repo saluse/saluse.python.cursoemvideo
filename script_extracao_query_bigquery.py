@@ -1,4 +1,4 @@
-# Instalar as bibliotecas somente na primeira execução
+# Instalar as bibliotecas no terminal
 # pip install google-cloud-storage
 # pip install google-cloud-bigquery
 # pip install pandas as pd
